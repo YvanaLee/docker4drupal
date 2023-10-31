@@ -1,6 +1,6 @@
 services:
   mariadb:
-    image: wodby/mariadb:$MARIADB_TAG
+    image: mariadb:$MARIADB_TAG
     container_name: "${PROJECT_NAME}_mariadb"
     stop_grace_period: 30s
     environment:
